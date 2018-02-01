@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Oswald');
+
+/* Fonts */
+#header #navbar ul.navigation li a {
+  font-family: 'Oswald', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+.label{
+  font-family: 'Oswald', sans-serif;
+}
+
+html, body, button, input, select, textarea, .pure-g, .pure-g [class*="pure-u"] {
+  font-family: 'Open Sans', sans-serif;
+}
+h1 + h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+h2 + h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+/* ---- */
+
+/* share buttons */
+.share-buttons{
+  display: block;
+  line-height: 10px;
+}
+.twitter-share-button[style] {
+  vertical-align: text-bottom !important;
+
+}
+/* ---- */
+
+/* Mobile fa-menu */
+.panel-activation{
+  color: #F9A825;
+}
+/****/
+
+/* Media Query for mobile header */
+@media screen and (max-width: 480px) {
+    #header #logo h3 a {
+        font-size: .7em;
+
+    }
+}
+@media screen and (max-width: 360px) {
+    #header #logo h3 a {
+        font-size: .65em;
+
+    }
+}
+@media screen and (max-width: 330px) {
+    #header #logo h3 a {
+        font-size: .55em;
+
+    }
+}
+/****/
+
+.header-image #header .navigation .has-children:hover a {
+  color: maroon; }
+a:hover {
+  color: #7a0019;
+}
+a{
+  color: #F9A825;
+}
+
+
+
+ #header {
+   background: #7a0019;
+ }
+
+#header #navbar a {
+  color: white;
+}
+
+#header #navbar a:hover {
+  color: #FDD835;
+}
+
+
+textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
+  border-color: #838c82;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(21, 163, 214, 0.7); }
+  #header #navbar ul.navigation li ul li:hover > a {
+
+    color: #fff; }
+    #header.scrolled #navbar a {
+      color: #7a0019 !important;
+    }
+    #header #navbar a:before, #header #navbar a:after {
+      background-color: #F9A825 !important; }
+
+    #header.scrolled #navbar a:before, #header.scrolled #navbar a:after {
+      background-color: black !important; }
+      #header.scrolled #navbar a:before:hover, #header.scrolled #navbar a:after:hover {
+        color: maroon !important; }
+
+
+
+#header {
+  font-family: "Sans-Serif", Helvetica;
+}
+
+#header #logo h3 a{
+  color: white;
+  font-family: "Sans-Serif", Helvetica;
+}
+
+p {
+
+}
+#header.scrolled #navbar a {
+    color: maroon !important;
+}
+#header.scrolled #navbar a:hover {
+  color: maroon !important; }
+
+
+  .list-item .list-blog-header h4 a, .list-item .list-blog-padding {
+    margin-left: 20px;
+
+}
+
+  .list-item .list-blog-header h4 a:hover {
+
+    color: #8c1919;
+}
+
+
+.dt-published {
+  color: #F9A825;
+}
+
+.list-item {
+  background: #fcfcfc;
+
+  padding: 16px;
+  border-radius: 15px;
+}
+
+.label {
+  background: maroon;
+}
+
+.tags a{
+  border: 1px solid gray;
+}
+
+#footer {
+  background: #7a0019;
+}
+
+#footer .totop span {
+  background: #7a0019;
+
+}
+
+.nav-social{
+  display: block;
+
+}
+
+.nav-social a:hover {
+  opacity: .95;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    float: right;
+    padding: 10px 7px 10px 8px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  float: right;
+  padding: 10px 7px 10px 8px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+#umm-logo{
+  max-width: 85%;
+  max-height: 85%;
+  margin-left: 12px;
+}
