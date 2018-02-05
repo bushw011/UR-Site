@@ -2,7 +2,7 @@
 {% set feed_url = blog.url == '/' or blog.url == base_url_relative ? (base_url_relative~'/'~blog.slug) : blog.url %}
 {% set new_base_url = blog.url == '/' ? '' : blog.url %}
 <div>
-  <img id="umm-logo" src="{{ url('theme://images/Morris-logo-RGB.png') }}" />
+
 </div>
 {% if config.plugins.simplesearch.enabled %}
 <div class="sidebar-content">
@@ -27,7 +27,7 @@
     <p><a href="{{article.URL}}">{{ article.title }}</a></p>
   {% endfor %}
 {% endif %}
-
+<img id="umm-logo" src="{{ url('theme://images/Morris-logo-RGB.png') }}" />
 
 
 <!--
