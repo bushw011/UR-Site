@@ -60,6 +60,11 @@ h2 + h3 {
 }
 /****/
 
+.sidebar-line{
+  border: 1px solid #7a0019;
+  
+}
+
 .header-image #header .navigation .has-children:hover a {
   color: maroon; }
 a:hover {
