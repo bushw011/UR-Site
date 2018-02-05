@@ -62,7 +62,7 @@ h2 + h3 {
 
 .sidebar-line{
   border: 1px solid #7a0019;
-  
+
 }
 
 .header-image #header .navigation .has-children:hover a {
@@ -198,9 +198,14 @@ p {
   text-decoration: none;
 }
 
+.logo-container{
+  text-align: center;
+}
 
 #umm-logo{
   max-width: 85%;
   max-height: 85%;
-  margin-left: 12px;
+  display: inline-block;
+  margin: auto;
+
 }
