@@ -22,7 +22,7 @@
 {% endif %}
 
 {% if taxonomy.findTaxonomy({'category':['featured']})|length>0 %}
-  <h4> Editors Choice </h4>
+  <h4> Editor's Choice </h4>
   {% for article in taxonomy.findTaxonomy({'category':['featured']})%}
     <p><a href="{{article.URL}}">{{ article.title }}</a></p>
   {% endfor %}
