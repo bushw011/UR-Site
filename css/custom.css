@@ -7,7 +7,9 @@
 #header #logo h3 a{
   color: white;
   font-family: 'Oswald', sans-serif;
+  font-size: 1.1em;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
 }
@@ -171,8 +173,10 @@ p {
 }
 
 .nav-social{
-  display: block;
 
+  display: block;
+  float: right;
+  margin-top: 40px;
 }
 
 .nav-social a:hover {
@@ -180,8 +184,8 @@ p {
 }
 
 .fa-facebook {
-    background: #3B5998;
-    color: white;
+
+    color: #3B5998;
     float: right;
     padding: 10px 7px 10px 8px;
     font-size: 25px;
@@ -192,8 +196,18 @@ p {
 }
 
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
+
+  color: #55ACEE;
+  float: right;
+  padding: 10px 7px 10px 8px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-instagram {
+  color: black;
   float: right;
   padding: 10px 7px 10px 8px;
   font-size: 25px;

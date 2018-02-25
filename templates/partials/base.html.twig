@@ -76,18 +76,22 @@
         {% block body %}
         <section id="body" class="{{ class }}">
             {% block content %}{% endblock %}
+            <div class="nav-social">
+              <a href="https://www.facebook.com/urmorris/" class="fa fa-facebook"></a>
+              <a href="https://twitter.com/morrisur" class="fa fa-twitter"></a>
+              <a href="https://www.instagram.com/umm_university_register/?hl=en" class="fa fa-instagram"></a>
+            </div>
         </section>
+
         {% endblock %}
 
         {% block footer %}
+        
         <footer id="footer">
             <!--<div class="totop">
                 <span><a href="#" id="toTop"><i class="fa fa-arrow-up"></i></a></span>
             </div>!-->
-            <div class="nav-social">
-              <a href="https://www.facebook.com/urmorris/" class="fa fa-facebook"></a>
-              <a href="https://twitter.com/morrisur" class="fa fa-twitter"></a>
-            </div>
+
         </footer>
         {% endblock %}
     </div>
