@@ -4,6 +4,10 @@
 #header #navbar ul.navigation li a {
   font-family: 'Oswald', sans-serif;
 }
+#header #logo h3 a{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
 }
@@ -42,23 +46,28 @@ h2 + h3 {
 /* Media Query for mobile header */
 @media screen and (max-width: 480px) {
     #header #logo h3 a {
-        font-size: .7em;
+        font-size: .9em;
 
     }
 }
 @media screen and (max-width: 360px) {
     #header #logo h3 a {
-        font-size: .65em;
+        font-size: .85em;
 
     }
 }
 @media screen and (max-width: 330px) {
     #header #logo h3 a {
-        font-size: .55em;
+        font-size: .7em;
 
     }
 }
 /****/
+
+
+.e-content{
+  margin-left: ;
+}
 
 .sidebar-line{
   border: 1px solid #7a0019;
@@ -108,14 +117,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 
 
 
-#header {
-  font-family: "Sans-Serif", Helvetica;
-}
 
-#header #logo h3 a{
-  color: white;
-  font-family: "Sans-Serif", Helvetica;
-}
 
 p {
 
@@ -163,6 +165,8 @@ p {
 
 #footer .totop span {
   background: #7a0019;
+}
+#footer img {
 
 }
 
