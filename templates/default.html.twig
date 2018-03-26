@@ -1,6 +1,8 @@
 {% extends 'partials/base.html.twig' %}
 {% block content %}
-	{{ page.media.images|first.cropZoom(1038,437).html(page.title, page.title, 'attachment-post-thumbnail wp-post-image') }}
+	<div class="article-thumbnail">
+		{{ page.media.images|first.cropZoom(1152,648).html(page.title, page.title, 'attachment-post-thumbnail wp-post-image').c }}
+	</div>
 	<div id="fb-root"></div>
 
 	<h2>{{ page.title }}</h2>
